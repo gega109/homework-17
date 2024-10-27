@@ -3,7 +3,8 @@
     max-width: 456px;
   }
   .btn {
-    width: 376px;
+    max-width: 376px;
+    width: 100%;
   }
 }
 @media (max-width: 376px) {
@@ -12,6 +13,17 @@
     padding: 24px;
   }
   .btn {
-    width: 279px;
+    max-width: 279px;
+    width: 100%;
+  }
+}
+@media (max-width: 448px) {
+  .container {
+    max-width: 327px;
+    padding: 24px;
+  }
+  .btn {
+    max-width: 279px;
+    width: 100%;
   }
 }

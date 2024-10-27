@@ -19,6 +19,7 @@ body {
   border-radius: var(--spacing-150, 12px);
   background: var(--color-grey-800, #1f1f1f);
   max-width: 384px;
+  width: 100%;
   padding: 40px;
 }
 .header_box {
@@ -74,16 +75,15 @@ body {
   border-radius: var(--spacing-100, 8px);
   background: var(--color-grey-700, #333);
   border: none;
-  width: 304px;
   transition-duration: 0.3s;
   color: white;
   font-family: "inter" sans-serif;
   font-size: var(--font-size-text-preset-2, 14px);
   font-style: normal;
   font-weight: 600;
+  width:100%;
 }
 .btn:hover {
   background: var(--color-green, #c4f82a);
   color: black;
 }
-
